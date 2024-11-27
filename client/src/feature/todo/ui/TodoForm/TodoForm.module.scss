@@ -1,0 +1,57 @@
+
+.form {
+    background: white;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 20px;
+
+    label {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        span {
+            color: red;
+        }
+    }
+
+    input, button {
+        width: 100%;
+        padding: 5px 15px;
+        height: 40px;
+        background: white;
+        border: 1px solid;
+        color: black;
+        border-radius: 4px;
+        transition: 250ms;
+    }
+
+    input:hover {
+        border: 1px solid #1674d2;
+        transition: 250ms;
+    }
+
+    input:focus-within {
+        border: 1px solid #1674d2;
+    }
+
+    .errorMessage {
+        margin: 8px 0;
+        color: red;
+    }
+
+    button:hover {
+        background: black;
+        color: white;
+        transition: 250ms;
+    }
+
+    button:disabled {
+        background: gray;
+    }
+}

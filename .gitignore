@@ -1,0 +1,29 @@
+# Общие исключения
+.DS_Store
+Thumbs.db
+*.log
+*.env
+*.local
+
+# Исключение для Node.js проектов
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Исключение для frontend (Vite)
+client/node_modules/
+client/dist/
+client/.env.local
+client/.env
+client/.vite/
+
+# Исключение для backend
+server/node_modules/
+server/.env
+server/logs/
+
+# Исключение для IDE
+.vscode/
+.idea/
+*.iml

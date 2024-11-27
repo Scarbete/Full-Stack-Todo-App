@@ -1,0 +1,1 @@
+export {TodoPageLazy as TodoPage} from './view/TodoPage.lazy.tsx'

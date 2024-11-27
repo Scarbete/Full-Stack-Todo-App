@@ -1,0 +1,21 @@
+
+.todoView {
+
+    &:hover {
+        background: rgb(238, 238, 238);
+    }
+
+    .todoInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        color: black;
+        background: red;
+        width: 90%;
+    }
+
+    button {
+        height: fit-content;
+        width: fit-content;
+    }
+}
